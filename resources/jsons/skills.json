@@ -1,0 +1,205 @@
+{
+	"skills_categories": [
+		{
+			"name": "Développement",
+			"skills": [
+				{
+					"name": "Python",
+					"logo": "resources/svgs/skills/Python.svg",
+					"link": "https://www.python.org"
+				},
+				{
+					"name": "HTML",
+				
+					"logo": "resources/svgs/skills/Html.svg",
+					"link": "https://en.wikipedia.org/wiki/HTML"
+				},
+				{
+					"name": "CSS",
+					"logo": "resources/svgs/skills/Css.svg",
+					"link": "https://en.wikipedia.org/wiki/CSS"
+				},
+				{
+					"name": "PHP",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "PowerShell",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "Bash",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "C",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "Git",
+					"logo": "resources/svgs/skills/Git.svg",
+					"link": "https://git-scm.com/"
+				}
+			]
+		},
+		{
+			"name": "Réseau",
+			"skills": [
+				{
+					"name": "Modèle OSI",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "TCP/IP",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "Cisco",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "DNS",
+					"logo": "resources/svgs/skills/MongoDB.svg",
+					"link": "https://www.mongodb.com"
+				},
+				{
+					"name": "DHCP",
+					"logo": "resources/svgs/skills/MongoDB.svg",
+					"link": "https://www.mongodb.com"
+				},
+				{
+					"name": "LDAP",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "SNMP",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "Nagios",
+					"logo": "resources/svgs/skills/MongoDB.svg",
+					"link": "https://www.mongodb.com"
+				},
+				{
+					"name": "Zabbix",
+					"logo": "resources/svgs/skills/MongoDB.svg",
+					"link": "https://www.mongodb.com"
+				}
+			]
+		},
+		{
+			"name": "Systèmes",
+			"skills": [
+				{
+					"name": "Linux",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "Windows",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "VMware ESXi",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "Hyper-V",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "Proxmox",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "Docker",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				}
+			]
+		},
+		{
+			"name": "Cybersécurité",
+			"skills": [
+				{
+					"name": "Cryptographie",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "Proxy",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "WAF",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "Sécurité Web",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "VPN",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "IPS/IDS",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "SIEM",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "Firewall",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "Pfsense",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "Stormshield",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				}
+			]
+		},
+		{
+			"name": "Cloud",
+			"skills": [
+				{
+					"name": "Azure",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				},
+				{
+					"name": "AWS",
+					"logo": "resources/svgs/skills/.svg",
+					"link": ""
+				}
+			]
+		}
+	]
+}
