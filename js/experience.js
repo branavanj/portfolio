@@ -34,50 +34,20 @@ function experience_events()
 		for (let tag of job.tags)
 			tags += `<a href="${tag.url}" target="_blank">${tag.name}</a>`;
 
-		if (window.innerWidth > 780)
-		{
-			document.querySelector('#experience_section .experience_content').innerHTML += `
-				<div class="in_animation job ${inverted ? 'inverted' : ''}">
-					<div class="job_text">
-						<div class="type">
-							<span>${job.date}</span>
-							<span>•</span>
-							<span>${job.type}</span>
-						</div>
-						<a class="job_title" href="${job.link}" target="_blank">${job.title}</a>
-						<div class="text"><p>${job.description}</p></div>
-						<div class="tags">` + tags + `</div>
+		// Création de la carte de l'expérience sans image
+		document.querySelector('#experience_section .experience_content').innerHTML += `
+			<div class="in_animation job ${inverted ? 'inverted' : ''}">
+				<div class="job_text">
+					<div class="type">
+						<span>${job.date}</span>
+						<span>•</span>
+						<span>${job.type}</span>
 					</div>
-					<div class="job_view">
-						<a ${is_safari() ? 'class="safari_fix"' : ''} href="${job.link}" target="_blank">
-							<img src="${job.image}" alt="${job.title.toLowerCase()} image" width="1440px" height="810px"/>
-							` + (job.video == 'none' || is_safari() ? '' : `
-							<div class="lds-ring"><div></div><div></div><div></div><div></div></div>
-							<video loop muted preload="metadata">
-								<source src="${job.video}" type="video/mp4"/>
-							</video>
-							`) + `
-						</a>
-					</div>
-				</div>`;
-		}
-
-		else
-		{
-			document.querySelector('#experience_section .experience_content').innerHTML += `
-				<div class="in_animation job ${is_safari() ? 'safari_fix' : ''}" style="background-image: url(${job.image});">
-					<div class="job_text"">
-						<div class="type">
-							<span>${job.type}</span>
-							<span>•</span>
-							<span>${job.date}</span>
-						</div>
-						<a class="job_title" href="${job.link}" target="_blank">${job.title}</a>
-						<div class="text"><p>${job.description}</p></div>
-						<div class="tags">` + tags + `</div>
-					</div>
-				</div>`;
-		}
+					<a class="job_title" href="${job.link}" target="_blank">${job.title}</a>
+					<div class="text"><p>${job.description}</p></div>
+					<div class="tags">` + tags + `</div>
+				</div>
+			</div>`;
 	}
 
 	function generate(data)
@@ -98,7 +68,6 @@ function experience_events()
 			done.push(false);
 
 		in_animation_check();
-		videos_scroll_event();
 	}
 
 	function generate_experience()

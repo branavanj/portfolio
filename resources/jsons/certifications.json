@@ -1,0 +1,64 @@
+{
+    "certifications_categories": [
+        {
+            "name": "Réseau",
+            "certifications": [
+                {
+                    "name": "CCNA: Enterprise Networking, Security, and Automation",
+                    "logo": "resources/svgs/certifications/CCNAENSA__1_.png",
+                    "link": "https://www.credly.com/badges/128faf97-ccee-47cf-8978-e4f64b48d872/linked_in_profile",
+                    "date": "mars 2024"
+                },
+                {
+                    "name": "CCNA: Switching, Routing, and Wireless Essentials",
+                    "logo": "resources/svgs/certifications/CCNASRWE__1_.png",
+                    "link": "https://www.credly.com/badges/3f6877c1-17a7-4661-8729-70213bf7f914/linked_in_profile",
+                    "date": "mars 2024"
+                },
+                {
+                    "name": "CCNA: Introduction to Networks",
+                    "logo": "resources/svgs/certifications/CCNAITN__1_.png",
+                    "link": "https://www.credly.com/badges/7c41d70b-6ad3-4008-ad8e-aff6dc09aced/linked_in_profile",
+                    "date": "octobre 2023"
+                }
+            ]
+        },		
+        {
+            "name": "Cybersécurité",
+            "certifications": [
+                {
+                    "name": "Google Certificat - Fondamentaux de la cybersécurité",
+                    "logo": "resources/svgs/certifications/google-cybersecurity.webp",
+                    "link": "https://www.coursera.org/account/accomplishments/certificate/USTYFBWSRFPL",
+                    "date": "novembre 2023",
+                    "skills": "Python (langage de programmation)"
+                },
+                {
+                    "name": "Introduction to Cybersecurity",
+                    "logo": "resources/svgs/certifications/I2CS__1_.png",
+                    "link": "https://www.credly.com/badges/3e0f9966-bdb4-4255-bbfb-4cff52eda0ee/linked_in_profile",
+                    "date": "novembre 2023",
+                    "skills": "Cybersécurité, Sécurité réseau"
+                },
+                {
+                    "name": "Network Defense",
+                    "logo": "resources/svgs/certifications/NetworkDefense_v1_091721.png",
+                    "link": "https://www.credly.com/badges/b4f23750-767c-4e6e-9a7d-37cebf73deca/linked_in_profile",
+                    "date": "novembre 2023"
+                }
+            ]
+        },
+        {
+            "name": "Développement",
+            "certifications": [
+                {
+                    "name": "Python Essentials 1",
+                    "logo": "resources/svgs/certifications/python.png",
+                    "link": "https://www.credly.com/badges/0e37105f-b4ea-4022-85b9-878d0c5cbbc8/linked_in_profile",
+                    "date": "novembre 2023",
+                    "skills": "Python (langage de programmation)"
+                }
+            ]
+        }
+    ]
+}

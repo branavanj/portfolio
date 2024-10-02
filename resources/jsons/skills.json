@@ -10,7 +10,6 @@
 				},
 				{
 					"name": "HTML",
-				
 					"logo": "resources/svgs/skills/Html.svg",
 					"link": "https://en.wikipedia.org/wiki/HTML"
 				},
@@ -21,23 +20,23 @@
 				},
 				{
 					"name": "PHP",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/Php.svg",
+					"link": "https://www.php.net/manual/fr/intro-whatis.php"
 				},
 				{
 					"name": "PowerShell",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/Powershell.svg",
+					"link": "https://learn.microsoft.com/fr-fr/powershell/scripting/overview?view=powershell-7.4"
 				},
 				{
 					"name": "Bash",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/Bash.svg",
+					"link": "https://fr.wikipedia.org/wiki/Bourne-Again_shell"
 				},
 				{
 					"name": "C",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/C.svg",
+					"link": "https://fr.wikipedia.org/wiki/C_(langage)"
 				},
 				{
 					"name": "Git",
@@ -50,49 +49,44 @@
 			"name": "Réseau",
 			"skills": [
 				{
-					"name": "Modèle OSI",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
-				},
-				{
 					"name": "TCP/IP",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/reseau.svg",
+					"link": "https://fr.wikipedia.org/wiki/Suite_des_protocoles_Internet"
 				},
 				{
 					"name": "Cisco",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/Cisco.svg",
+					"link": "https://www.cisco.com/site/fr/fr/index.html"
 				},
 				{
 					"name": "DNS",
-					"logo": "resources/svgs/skills/MongoDB.svg",
-					"link": "https://www.mongodb.com"
+					"logo": "resources/svgs/skills/DNS.svg",
+					"link": "https://www.cloudflare.com/fr-fr/learning/dns/what-is-dns/"
 				},
 				{
 					"name": "DHCP",
-					"logo": "resources/svgs/skills/MongoDB.svg",
-					"link": "https://www.mongodb.com"
+					"logo": "resources/svgs/skills/dhcp.svg",
+					"link": "https://www.fortinet.com/fr/resources/cyberglossary/dynamic-host-configuration-protocol-dhcp#:~:text=Host%20Configuration%20Protocol)-,Qu'est%2Dce%20que%20DHCP%20%3F,l'acc%C3%A8s%20%C3%A0%20un%20r%C3%A9seau."
 				},
 				{
 					"name": "LDAP",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/ldap.svg",
+					"link": "https://fr.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol"
 				},
 				{
 					"name": "SNMP",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/snmp.svg",
+					"link": "https://fr.wikipedia.org/wiki/Simple_Network_Management_Protocol"
 				},
 				{
 					"name": "Nagios",
-					"logo": "resources/svgs/skills/MongoDB.svg",
-					"link": "https://www.mongodb.com"
+					"logo": "resources/svgs/skills/Nagios.svg",
+					"link": "https://www.nagios.org/"
 				},
 				{
 					"name": "Zabbix",
-					"logo": "resources/svgs/skills/MongoDB.svg",
-					"link": "https://www.mongodb.com"
+					"logo": "resources/svgs/skills/Zabbix.svg",
+					"link": "https://www.zabbix.org"
 				}
 			]
 		},
@@ -101,33 +95,33 @@
 			"skills": [
 				{
 					"name": "Linux",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/Unix.svg",
+					"link": "https://fr.wikipedia.org/wiki/Linux"
 				},
 				{
 					"name": "Windows",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/Windows.svg",
+					"link": "https://www.microsoft.com/fr-fr/windows?r=1"
 				},
 				{
 					"name": "VMware ESXi",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/vmware.svg",
+					"link": "https://www.vmware.com/products/cloud-infrastructure/esxi-and-esx"
 				},
 				{
 					"name": "Hyper-V",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/hyper-v.svg",
+					"link": "https://learn.microsoft.com/fr-fr/virtualization/hyper-v-on-windows/about/"
 				},
 				{
 					"name": "Proxmox",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/proxmox.svg",
+					"link": "https://www.proxmox.com/en/"
 				},
 				{
 					"name": "Docker",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/Docker.svg",
+					"link": "https://www.docker.com/"
 				}
 			]
 		},
@@ -136,53 +130,43 @@
 			"skills": [
 				{
 					"name": "Cryptographie",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/cryptographie.svg",
+					"link": "https://www.oracle.com/fr/security/qu-est-ce-que-la-cryptographie/"
 				},
 				{
 					"name": "Proxy",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/proxy.svg",
+					"link": "https://fr.wikipedia.org/wiki/Proxy"
 				},
 				{
 					"name": "WAF",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/waf.svg",
+					"link": "https://www.oracle.com/fr/security/waf-definition-pare-feu/#:~:text=WAF%20%3A%20d%C3%A9finition,et%20les%20mod%C3%A8les%20de%20trafic."
 				},
 				{
 					"name": "Sécurité Web",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/securite-web.svg",
+					"link": "https://cyber.gouv.fr/publications/securiser-un-site-web"
 				},
 				{
 					"name": "VPN",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/vpn.svg",
+					"link": "https://fr.wikipedia.org/wiki/R%C3%A9seau_priv%C3%A9_virtuel"
 				},
 				{
 					"name": "IPS/IDS",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/ids.svg",
+					"link": "https://www.varonis.com/fr/blog/ids-et-ips-en-quoi-sont-ils-differents"
 				},
 				{
 					"name": "SIEM",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/siem.svg",
+					"link": "https://www.microsoft.com/fr-fr/security/business/security-101/what-is-siem#:~:text=Un%20syst%C3%A8me%20de%20gestion%20des,elles%20ne%20perturbent%20leurs%20activit%C3%A9s."
 				},
 				{
 					"name": "Firewall",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
-				},
-				{
-					"name": "Pfsense",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
-				},
-				{
-					"name": "Stormshield",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/firewall.svg",
+					"link": "https://fr.wikipedia.org/wiki/Pare-feu_(informatique)"
 				}
 			]
 		},
@@ -191,13 +175,13 @@
 			"skills": [
 				{
 					"name": "Azure",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/Azure.svg",
+					"link": "https://azure.microsoft.com/fr-fr"
 				},
 				{
 					"name": "AWS",
-					"logo": "resources/svgs/skills/.svg",
-					"link": ""
+					"logo": "resources/svgs/skills/Aws.svg",
+					"link": "https://aws.amazon.com/fr/"
 				}
 			]
 		}

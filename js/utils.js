@@ -17,28 +17,18 @@ function is_in_viewport(el)
 	return rect.bottom >= 0 && rect.top <= (window.innerHeight || document.documentElement.clientHeight);
 }
 
-function read_json(url, callback)
-{
-	let xhr = new XMLHttpRequest();
-	xhr.open('GET', url);
+async function read_json(url, callback) {
+    try {
+        const response = await fetch(url);
 
-	xhr.onreadystatechange = function(data)
-	{
-		if (xhr.readyState == 4)
-		{
-			if (xhr.status == 200)
-			{
-				let my_data = JSON.parse(data.currentTarget.response);
-				callback(my_data);
-			}
+        if (!response.ok) {
+            throw new Error(`Erreur pJS - Statut XMLHttpRequest: ${response.status}`);
+        }
 
-			else
-			{
-				console.log('Error pJS - XMLHttpRequest status: ' + xhr.status);
-				console.log('Error pJS - File config not found');
-			}
-		}
-	};
-
-	xhr.send();
+        const my_data = await response.json();
+        callback(my_data);
+    } catch (error) {
+        console.error('Erreur lors de la requête JSON:', error);
+    }
 }
+

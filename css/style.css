@@ -21,13 +21,9 @@ body
 	background-color: black;
 }
 
-ol
-{
-	list-style: none;
-}
-
 #loading_screen
 {
+        display: none !important;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -59,6 +55,12 @@ ol
 	text-align: center;
 	line-height: 22px;
 }
+
+ol
+{
+	list-style: none;
+}
+
 
 #lcp
 {
